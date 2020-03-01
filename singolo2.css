@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Lato";
+    src: url("assets/Lato-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+div#container {
+    position: relative;
+    width: 1020px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*PORTFOLIO START*/
+section#portfolio {
+    height: 864px;
+    background-color: #2d303a;
+}
+
+section#portfolio h1 {
+    padding-top: 68px;
+    padding-left: 40px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+}
+
+section#portfolio > p {
+    padding-top: 28px;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+}
+
+section#portfolio p + div {
+    margin-top: 12px;
+}
+
+section#portfolio div a:first-child {
+    margin-left: 40px;
+    font-size: 12px;
+    color: #767e9e;
+    font-weight: 400;
+    text-decoration: none; 
+    display: inline;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
+
+section#portfolio div a:nth-child(n+2) {
+    font-size: 12px;
+    color: #767e9e;
+    font-weight: 400;
+    text-decoration: none; 
+    display: inline;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin-left: 8px;
+}
+
+section#portfolio div a:hover {
+    color: #dedede;
+    border-color: #dedede;
+}
+
+section#portfolio div.row {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    height: 207px;
+    top: 24px;
+}
+
+section#portfolio div.item {
+    margin-left: 20px;
+}
+
+section#portfolio div.first div.item:nth-child(n+5) {
+    display: none;
+}
+
+section#portfolio div.second div.item:nth-child(n+5) {
+    display: none;
+}
+
+section#portfolio div.third div.item:nth-child(n+5) {
+    display: none;
+}
+
+section#portfolio + hr {
+    height: 6px;
+    background-color: #323746;
+    border: 0;
+    margin: 0;
+}
+/*PORTFOLIO END*/
+
+/*ABOUT US START*/
+section#about {
+    height: 728px;
+    background-color: #f2f2f2;
+}
+
+section#about h1 {
+    padding-top: 68px;
+    padding-left: 40px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+}
+
+section#about > p {
+    padding-top: 28px;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+}
+
+section#about div.row {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    top: 44px;
+}
+
+section#about div.item {
+    margin-left: 20px;
+}
+
+section#about div.first div.item h2 {
+    width: 300px;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+}
+
+section#about div.first div.item p {
+    width: 300px;
+    margin: 10px 0;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+}
+
+section#about div.first div.item span a img {
+    margin-top: 12px;
+    margin-right: 3px;
+}
+
+section#about + hr {
+    height: 6px;
+    background-color: #ffffff;
+    border: 0;
+    margin: 0;
+}
+/*ABOUT US END*/
