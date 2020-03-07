@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Lato";
+    src: url("assets/Lato-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+div#container {
+    position: relative;
+    width: 1020px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*QUOTE START*/
+section#quote {
+    height: 648px;
+    background-color: #f06c64;
+}
+
+section#quote h1 {
+    padding-top: 68px;
+    padding-left: 40px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 900;
+}
+
+section#quote > p {
+    padding-top: 28px;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-weight: 300;
+}
+
+section#quote a {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-weight: 300;
+    text-decoration: none; 
+}
+
+section#quote a.gps::before {
+    content: url(assets/gps.svg);
+    margin-right: 10px;
+}
+
+section#quote a.tel::before {
+    content: url(assets/tel.svg);
+    margin-right: 10px;
+}
+
+section#quote a.mail::before {
+    content: url(assets/mail.svg);
+    margin-right: 10px;
+}
+
+section#quote div.row {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    width: 940px;
+    top: 43px;
+    left: 40px;
+}
+
+section#quote div.row div.item:first-child form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#quote div.row div.item form input {
+    width: 604px;
+    height: 36px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+    font-size: 12px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 6px;
+}
+
+section#quote div.row div.item form input::placeholder {
+    color: #f08586;
+}
+
+section#quote div.row div.item form .textcolor {
+    color: #f0d8d9;
+}
+
+section#quote div.row div.item form textarea {
+    height: 189px;
+    padding-top: 11px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+    font-size: 12px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 6px;
+    resize: none;
+}
+
+section#quote div.row div.item form textarea::placeholder {
+    color: #f08586;
+}
+
+section#quote div.row div.item form input[type="submit"] {
+    width: 302px;
+    height: 36px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #d6564f;
+    background-color: #f0d8d9;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+section#quote div.row div.item:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+section#quote div.row div.item:last-child h2 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 900;
+}
+
+section#quote div.row div.item:last-child p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-weight: 400;
+    text-align: justify;
+}
+
+section#quote + hr {
+    height: 6px;
+    background-color: #ea676b;
+    border: 0;
+    margin: 0;
+}
+/*QUOTE END*/
+
+/*FOOTER START*/
+footer {
+    height: 76px;
+    background-color: #2d303a;
+}
+
+footer div.row div.item:first-child {
+    float: left;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+footer div.row div.item:last-child {
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+footer div.row div.item p {
+    color: #666d89;
+    font-size: 12px;
+}
+
+footer div.row div.item:last-child span {
+    display: flex;
+}
+
+footer div.row div.item:last-child span a {
+    margin-left: 5px;
+}
+/*FOOTER END*/
